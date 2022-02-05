@@ -1,0 +1,5 @@
+# Zipped files
+*.zip
+.DS_Store
+vendor
+hide

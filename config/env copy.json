@@ -1,0 +1,31 @@
+{
+
+	"PostgreSQL": {
+		"Username": "",
+		"Password": "",
+		"Database": "tickets_app",
+		"Hostname": "",
+		"Port": 5432,
+		"Parameter": "sslmode=disable",
+		"Timeout": 2000
+	},
+	"Enforcer": {
+		"ModelPath": "./config/model.conf",
+		"PolicyPath": "./config/policy.csv",
+		"Username": "",
+		"Password": "",
+		"Database": "casbin",
+		"Hostname": "",
+		"Port": 5432,
+		"Parameter": "sslmode=disable"
+	},
+	"Discovery": {
+		"ConsulAddr": "consul",
+		"ConsulPort": 8500,
+		"RetryMax": 3,
+		"RetryTimeout": 500
+	},
+	"Tracing": {
+		"Service": "api-gateway"
+	}
+}
